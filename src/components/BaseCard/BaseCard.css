@@ -1,0 +1,25 @@
+.card {
+  padding: 10px;
+  max-width: 300px;
+  border: 2px solid #0000002b;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  background: aliceblue;
+}
+
+.card.active {
+  background: #000;
+  border: 2px solid #b1b1b1c2;
+}
+
+.card-title.active {
+  color: aliceblue;
+}
+
+.card-img {
+  width: 250px;
+  border-radius: 10px;
+}
+.card-description.active {
+  color: aliceblue;
+}
